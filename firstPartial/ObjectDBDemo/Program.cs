@@ -1,7 +1,7 @@
 ﻿using ObjectDBDemo;
 using ObjectDBDemo.Models;
 
-PersonaRepository repo = new("persons.db");
+PersonRepository repo = new("persons.db");
 
 //Insert
 repo.Insert(

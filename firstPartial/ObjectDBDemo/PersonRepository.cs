@@ -3,12 +3,12 @@ using LiteDB;
 using ObjectDBDemo.Models;
 using System.Collections.Generic;
 
-public class PersonaRepository
+public class PersonRepository
 {
     private readonly LiteDatabase db;
     private readonly ILiteCollection<Person> collection;
 
-    public PersonaRepository(string databasePath)
+    public PersonRepository(string databasePath)
     {
         db = new LiteDatabase(databasePath);
         collection = db.GetCollection<Person>("persons");
