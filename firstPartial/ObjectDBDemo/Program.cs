@@ -43,9 +43,10 @@ foreach(Person per in persons)
 Person person1 = repo.GetById(1);
 
 //? checks if it is null by Use null propagation (IDE0031)
+//! to say that is not going to be null
 //this is like: if(person1 is not null){...}
-person1.Age = 22;
-repo.Update(person1);
+person1?.Age = 22;
+repo.Update(person1!);
 
 //Read
 persons = repo.GetAllPersons();
