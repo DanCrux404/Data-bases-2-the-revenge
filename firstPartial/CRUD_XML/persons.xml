@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person>
+    <Name>Dante</Name>
+    <Age>28</Age>
+    <Email>dante@ejemplo.com</Email>
+  </Person>
+  <Person>
+    <Name>Julio Cesar</Name>
+    <Age>26</Age>
+    <Email>Julio.nuevo@ejemplo.com</Email>
+  </Person>
+</Persons>
