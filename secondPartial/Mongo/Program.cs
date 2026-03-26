@@ -1,6 +1,5 @@
 ﻿using Mongo.Services;
 
-
 WriteLine("Starting Netflix Series App with MongoDB");
 
 try
