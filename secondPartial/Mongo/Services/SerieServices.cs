@@ -74,7 +74,7 @@ public class SerieService
             WriteLine($"ID: {serie.Id}");
             WriteLine($"{serie.Title} ({serie.Year})");
             WriteLine($"Seasons: {serie.Seasons}");
-            WriteLine("Rating: {serie.Rating}");
+            WriteLine($"Rating: {serie.Rating}");
             WriteLine($"Genres: {string.Join(", ", serie.Genres)}\n");
         }
     }
