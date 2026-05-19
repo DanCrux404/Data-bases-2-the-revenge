@@ -31,3 +31,10 @@ docker-compose.override.yml
 
 *.tmp
 *.cache
+
+# .NET build output
+bin/
+obj/
+*.dll
+*.pdb
+*.sourcelink.json
