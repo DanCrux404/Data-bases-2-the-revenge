@@ -115,6 +115,10 @@ docker compose down -v
 
 # Restart the container
 docker compose restart
+
+# Restart container and fake data (reset all DB and container)
+docker compose down -v
+docker compose up
 ```
 
 ---
