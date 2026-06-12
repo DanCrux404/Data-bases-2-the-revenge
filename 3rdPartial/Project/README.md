@@ -19,7 +19,7 @@ This repo contains only the database layer of the project. The mobile app and we
 ### 1. Start the container
 
 ```bash
-docker compose up -d
+docker compose up -d mongodb
 ```
 
 This automatically:
